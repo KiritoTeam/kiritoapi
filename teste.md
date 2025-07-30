@@ -1,7 +1,7 @@
 ````markdown
 # 🌐 kiritoapi
 
-![Status da API](https://g-status.ecoguardiao.tech/api/badge/4/status)
+[![Status da API](https://g-status.ecoguardiao.tech/api/badge/4/status)](https://g-status.ecoguardiao.tech/status/kiritoapi)
 
 `kiritoapi` é uma API multiuso para desenvolvedores Node.js que desejam acessar facilmente informações de jogos, usuários do Discord, GitHub, YouTube, tradução de textos, letras de músicas, IA de conversa e muito mais — tudo com apenas uma linha de código.
 
