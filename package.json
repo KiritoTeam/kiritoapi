@@ -1,0 +1,38 @@
+{
+  "name": "kiritoapi",
+  "version": "1.1.5-alfa",
+  "description": "KiritoApi Api para facilitar o seu desenvolvimento de bots",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "database",
+    "br",
+    "pt-br",
+    "brazilian",
+    "only-portuguese",
+    "portuguese",
+    "no-english",
+    "discord",
+    "api",
+    "word"
+  ],
+  "author": "kirito.dev",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.4.0",
+    "console-log-colors": "^0.4.0",
+    "node-fetch": "^3.3.2",
+    "semver": "^7.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiritoTeam/kiritoapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KiritoTeam/kiritoapi/issues"
+  },
+  "homepage": "https://github.com/KiritoTeam/kiritoapi#readme"
+}
