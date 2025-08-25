@@ -1,4 +1,4 @@
-[![Status da API](https://g-status.ecoguardiao.tech/api/badge/4/status)](https://g-status.ecoguardiao.tech/status/kiritoapi)
+![Status da API](https://k-status.ecoguardiao.tech/api/badge/6/status)
 ````markdown
 
 # 🌐 kiritoapi
