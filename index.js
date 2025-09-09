@@ -1,5 +1,5 @@
 client = require("./index");
-const Urlbase = "https://npm-kiritoapi.ecoguardiao.tech"
+const Urlbase = "https://adssousag.is-a.dev" || "https://npm-kiritoapi.ecoguardiao.tech"
 
 // Script by CroneGamesPlays Developer, NeoKurai Studios & Ads Sousa Group Corporation © 2020 - 2025 × Todos os direitos reservados.
 
