@@ -1,9 +1,8 @@
-Aqui está o seu **README** atualizado com os três **badges de status, ping e uptime**, todos redirecionando para a página de status da KiritoAPI:
-
 ````markdown
 [![Status](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/status)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
 [![Ping](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/ping)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
 [![Uptime](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/uptime)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
+
 
 # 🌐 kiritoapi
 
