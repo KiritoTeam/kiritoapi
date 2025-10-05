@@ -1,8 +1,6 @@
-````markdown
 [![Status](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/status)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
 [![Ping](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/ping)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
 [![Uptime](https://status-kiritoapi.adssousag.is-a.dev/api/badge/6/uptime)](https://status-kiritoapi.adssousag.is-a.dev/status/kiritoapi)
-
 
 # 🌐 kiritoapi
 
