@@ -1,6 +1,6 @@
 {
   "name": "kiritoapi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "KiritoApi Api para facilitar o seu desenvolvimento de bots",
   "main": "./build/index.js",
   "type": "module",
