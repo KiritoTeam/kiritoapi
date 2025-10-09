@@ -158,12 +158,12 @@ const KiritoApi = require("kiritoapi");
 const api = new KiritoApi();
 
 (async () => {
-  const mc = await api.mineinfo("mc.hypixel.net");
-  const banner = await api.minebanner("mc.hypixel.net");
-  const discordUser = await api.userinfo("820344895528632380");
+  const mc = await api.mineInfo("mc.hypixel.net");
+  const banner = await api.mineBanner("mc.hypixel.net");
+  const discordUser = await api.userInfo("820344895528632380");
   const traducao = await api.tradutor("Bom dia", "en");
-  const musica = await api.MusicLyrics("Imagine Dragons", "Believer");
-  const recomendacoes = await api.MusicRecommend("Tá Rico Os Meninos do Gueto");
+  const musica = await api.musicLyrics("Imagine Dragons", "Believer");
+  const recomendacoes = await api.musicRecommend("Tá Rico Os Meninos do Gueto");
 
   console.log("Servidor Minecraft:", mc);
   console.log("Banner:", banner);
