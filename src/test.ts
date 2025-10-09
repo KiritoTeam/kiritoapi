@@ -1,0 +1,31 @@
+import KiritoApi from "./index.js";
+
+console.log("Inicializando API");
+const kiritoapi = new KiritoApi();
+console.log("API inicializada");
+
+console.log("Testando métodos");
+
+const mineInfo = await kiritoapi.mineInfo("mc.sparklypower.net");
+
+const mineBanner = await kiritoapi.mineBanner("mc.sparklypower.net");
+
+const userInfo = await kiritoapi.userInfo("473574403083599882");
+
+// await kiritoapi.setBannerBot("Bot-Token", "https://link-da-imagem.com/banner.png");
+
+const inviteInfo = await kiritoapi.inviteInfo("flamengo");
+
+const chat = await kiritoapi.chat("oii, tudo bem?");
+
+const githubUserInfo = await kiritoapi.githubUserInfo("octocat");
+
+const youtubeInfo = await kiritoapi.youtubeInfo("UC8mrqztpPinyZO_TNt_Gekg");
+
+const tradutor = await kiritoapi.tradutor("Olá, mundo!", "en");
+
+const musicTitle = "Só Rock 3";
+const musicLyrics = await kiritoapi.musicLyrics("Major RD", musicTitle);
+const musicRecommend = await kiritoapi.musicRecommend("Só Rock 3");
+
+console.log("Métodos testados");

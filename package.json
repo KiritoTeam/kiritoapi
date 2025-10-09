@@ -2,9 +2,14 @@
   "name": "kiritoapi",
   "version": "1.0.6",
   "description": "KiritoApi Api para facilitar o seu desenvolvimento de bots",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node .",
+    "test": "node ./build/test.js",
+    "start:dev": "tsx ./src/index.ts",
+    "test:dev": "tsx ./src/test.ts",
+    "build": "tsc"
   },
   "keywords": [
     "database",
@@ -21,11 +26,7 @@
   "author": "kirito.dev",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "axios": "^1.4.0",
-    "console-log-colors": "^0.4.0",
-    "node-fetch": "^3.3.2",
-    "semver": "^7.5.4"
+    "semver": "^7.7.3"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,11 @@
   "bugs": {
     "url": "https://github.com/KiritoTeam/kiritoapi/issues"
   },
-  "homepage": "https://github.com/KiritoTeam/kiritoapi#readme"
+  "homepage": "https://github.com/KiritoTeam/kiritoapi#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "@types/semver": "^7.7.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
 }
