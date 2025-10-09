@@ -29,32 +29,32 @@ const api = new KiritoApi();
 
 ## 📘 Métodos disponíveis
 
-### 🎮 `await api.mineinfo(ip)`
+### 🎮 `await api.mineInfo(ip)`
 
 Busca informações detalhadas de um servidor Minecraft (Java ou Bedrock).
 
 ```js
-const info = await api.mineinfo("mc.sparklypower.net");
+const info = await api.mineInfo("mc.sparklypower.net");
 ```
 
 ---
 
-### 🖼️ `await api.minebanner(ip)`
+### 🖼️ `await api.mineBanner(ip)`
 
 Retorna a imagem/banner de status do servidor Minecraft.
 
 ```js
-const banner = await api.minebanner("mc.sparklypower.net");
+const banner = await api.mineBanner("mc.sparklypower.net");
 ```
 
 ---
 
-### 🤖 `await api.userinfo(discordUserId)`
+### 🤖 `await api.userInfo(discordUserId)`
 
 Retorna informações públicas de um usuário do Discord usando seu ID.
 
 ```js
-const user = await api.userinfo("820344895528632380");
+const user = await api.userInfo("820344895528632380");
 ```
 
 ---
