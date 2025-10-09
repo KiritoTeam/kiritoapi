@@ -91,12 +91,12 @@ const resposta = await api.chat("oii, tudo bem?");
 
 ---
 
-### 🐙 `await api.GithubUserinfo(username)`
+### 🐙 `await api.githubUserInfo(username)`
 
 Retorna informações de um usuário do GitHub.
 
 ```js
-const github = await api.GithubUserinfo("octocat");
+const github = await api.githubUserInfo("octocat");
 ```
 
 ---
@@ -123,22 +123,22 @@ const traducao = await api.tradutor("Olá, mundo!", "en"); // Resultado: "Hello,
 
 ---
 
-### 🎵 `await api.MusicLyrics(artista, musica)`
+### 🎵 `await api.musicLyrics(artista, musica)`
 
 Busca letras de músicas com base no nome do artista e da música.
 
 ```js
-const letra = await api.MusicLyrics("Adele", "Hello");
+const letra = await api.musicLyrics("Adele", "Hello");
 ```
 
 ---
 
-### 🎶 `await api.MusicRecommend(nomeDaMusica)`
+### 🎶 `await api.musicRecommend(nomeDaMusica)`
 
 Gera recomendações musicais com base no nome de uma música.
 
 ```js
-const recomendacoes = await api.MusicRecommend("Tá Rico Os Meninos do Gueto");
+const recomendacoes = await api.musicRecommend("Tá Rico Os Meninos do Gueto");
 ```
 
 ---
