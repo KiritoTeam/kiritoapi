@@ -18,8 +18,6 @@ jobs:
           node-version: 20
           registry-url: 'https://registry.npmjs.org/'
 
-      - name: Instalar dependências
-        run: npm ci
 
       - name: Publicar no NPM
         run: npm publish --access public
